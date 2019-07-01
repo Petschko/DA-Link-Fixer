@@ -3,7 +3,7 @@
 // @namespace    https://petschko.org/deviantart/link-fixer
 // @description  Fixes the Links in the old Version, which the Eclipse-Team has broken...
 // @author       Peter Dragicevic [peter@petschko.org]
-// @version      1.0.1
+// @version      1.0.2
 // @encoding     utf-8
 // @homepage     https://petschko.org/
 // @homepage     https://github.com/Petschko/DA-Link-Fixer
@@ -111,7 +111,23 @@
 	}
 
 	/**
+	 * Fixes Gallery-Links
+	 */
+	function fixGalleryLinks() {
+		// todo implement
+	}
+
+	/**
+	 * Fixes the Download Button-Link
+	 */
+	function fixDownloadButton() {
+		// todo implement
+	}
+
+	/**
 	 * Purify all DA-Links...
+	 *
+	 * @deprecated - Too buggy
 	 */
 	function fixAllLinks() {
 		let a = document.getElementsByTagName('a');
@@ -133,7 +149,9 @@
 			return;
 
 		// Fix the poor links from the old version...
-		fixAllLinks();
+		fixUserLinks();
+		fixGalleryLinks();
+		fixDownloadButton();
 	}
 
 	// Adds start EventListener
