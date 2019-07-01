@@ -3,7 +3,7 @@
 // @namespace    https://petschko.org/deviantart/link-fixer
 // @description  Fixes the Links in the old Version, which the Eclipse-Team has broken...
 // @author       Peter Dragicevic [peter@petschko.org]
-// @version      1.0.2
+// @version      1.1.0
 // @encoding     utf-8
 // @homepage     https://petschko.org/
 // @homepage     https://github.com/Petschko/DA-Link-Fixer
@@ -121,7 +121,14 @@
 	 * Fixes the Download Button-Link
 	 */
 	function fixDownloadButton() {
-		// todo implement
+		let dlBtn = document.getElementsByClassName('dev-page-download');
+
+		for(let i = 0; i < dlBtn; i++) {
+			cleanupLink(dlBtn[i]);
+
+			if(debug)
+				console.info(scriptName + ': Removed junk from Download-Button');
+		}
 	}
 
 	/**
