@@ -3,7 +3,7 @@
 // @namespace    https://petschko.org/deviantart/link-fixer
 // @description  Fixes the Links in the old Version, which the Eclipse-Team has broken...
 // @author       Peter Dragicevic [peter@petschko.org]
-// @version      1.0.0
+// @version      1.0.1
 // @encoding     utf-8
 // @homepage     https://petschko.org/
 // @homepage     https://github.com/Petschko/DA-Link-Fixer
@@ -120,7 +120,7 @@
 			cleanupLink(a[i]);
 
 			if(debug)
-				console.info(scriptName + ': Removed junk from Userlink (User: ' + a[n].innerHTML + ')');
+				console.info(scriptName + ': Removed junk from Userlink (User: ' + a[i].innerHTML + ')');
 		}
 	}
 
