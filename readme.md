@@ -6,7 +6,7 @@ With this Script you can open all link like a half year before.
 
 The last month the DeviantArt Team goes on more aggressive with the Eclipse-Project. In that way they even start to break the old Version without repair stuff.
 
-Lately the even broke a couple of links, which can now only opened with a little workaround (open in new tab), which is annoying. This script fixes ALL links on the page and removes junk from them, such as:
+Lately they even broke a couple of links, which can now only opened with a little workaround (open in new tab), which is annoying. This script fixes ALL links on the page and removes junk from them, such as:
 
 - Google-Analytic values
 - Ping-Attribute
