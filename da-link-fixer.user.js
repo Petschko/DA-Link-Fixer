@@ -26,7 +26,7 @@
 	'use strict';
 
 	const scriptName = 'Deviantart-Link-Fixer';
-	const debug = true; // Turns on all kind of messages, rather annoying for daily use, mostly for development, keep it false
+	const debug = false; // Turns on all kind of messages, rather annoying for daily use, mostly for development, keep it false
 
 	/**
 	 * Checks if the user is currently in Eclipse
@@ -118,6 +118,9 @@
 
 		for(let i = 0; i < a.length; i++) {
 			cleanupLink(a[i]);
+
+			if(debug)
+				console.info(scriptName + ': Removed junk from Userlink (User: ' + a[n].innerHTML + ')');
 		}
 	}
 
@@ -130,7 +133,6 @@
 			return;
 
 		// Fix the poor links from the old version...
-		//fixUserLinks(); <-- in the end doesnt needed xD
 		fixAllLinks();
 	}
 
