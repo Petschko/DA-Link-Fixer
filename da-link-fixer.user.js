@@ -3,7 +3,7 @@
 // @namespace    https://petschko.org/deviantart/link-fixer
 // @description  Fixes the Links in the old Version, which the Eclipse-Team has broken...
 // @author       Peter Dragicevic [peter@petschko.org]
-// @version      1.2.0
+// @version      1.2.1
 // @encoding     utf-8
 // @homepage     https://petschko.org/
 // @homepage     https://github.com/Petschko/DA-Link-Fixer
@@ -116,7 +116,7 @@
 	function fixGalleryLinks() {
 		let galleryLinks = document.getElementsByClassName('mltpreview-footerlink');
 
-		for(let i = 0; i < galleryLinks; i++) {
+		for(let i = 0; i < galleryLinks.length; i++) {
 			cleanupLink(galleryLinks[i]);
 
 			if(debug)
@@ -130,7 +130,7 @@
 	function fixDownloadButton() {
 		let dlBtn = document.getElementsByClassName('dev-page-download');
 
-		for(let i = 0; i < dlBtn; i++) {
+		for(let i = 0; i < dlBtn.length; i++) {
 			cleanupLink(dlBtn[i]);
 
 			if(debug)
