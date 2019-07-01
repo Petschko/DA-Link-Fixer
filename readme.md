@@ -25,11 +25,11 @@ Often these Links are affected (broken) by the changes of the WIX-Team:
 
 ### Firefox
 1. Get a Script-Manager like [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
-2. [Install this Script](https://insertLinkHere)
+2. [Install this Script](https://github.com/Petschko/DA-Link-Fixer/raw/master/da-link-fixer.user.js)
 
 ### Chrome
 1. Get [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
-2. [Install this Script](https://insertLinkHere)
+2. [Install this Script](https://github.com/Petschko/DA-Link-Fixer/raw/master/da-link-fixer.user.js)
 
 ## Credits
 ----
@@ -40,5 +40,5 @@ Often these Links are affected (broken) by the changes of the WIX-Team:
 
 If you have questions or still find unusable links let me know, you can write me here:
 
-- The [Issue-Section](https://insertLinkHere) of this Project
+- The [Issue-Section](https://github.com/Petschko/DA-Link-Fixer/issues) of this Project
 - E-Mail me: peter@petschko.org

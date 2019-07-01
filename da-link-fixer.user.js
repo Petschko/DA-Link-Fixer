@@ -6,8 +6,12 @@
 // @version      0.0.1
 // @encoding     utf-8
 // @homepage     https://petschko.org/
-// @homepage     https://petschko.org/
-// @licence      https://creativecommons.org/licenses/by-nc-sa/3.0/
+// @homepage     https://github.com/Petschko/DA-Link-Fixer
+// @licence      https://raw.githubusercontent.com/Petschko/DA-Link-Fixer/master/LICENSE
+// @supportURL   https://github.com/Petschko/DA-Link-Fixer/issues
+// @contactURL   https://github.com/Petschko/DA-Link-Fixer#contact
+// @updateURL    https://github.com/Petschko/DA-Link-Fixer/raw/master/da-link-fixer.user.js
+// @downloadURL  https://github.com/Petschko/DA-Link-Fixer/raw/master/da-link-fixer.user.js
 // @include      http://deviantart.com/*
 // @include      https://deviantart.com/*
 // @include      http://*.deviantart.com/*
